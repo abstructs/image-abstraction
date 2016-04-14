@@ -35,7 +35,7 @@ app.get('/', function(req, res){
       "when": history.when
     };
   });
-  res.write('example usage: \n\nhttps://image-abstraction-polygoning.c9users.io/api/imagesearch/coolio?offset=3\n\n');
+  res.write('Example usage: \n\nhttps://image-abstraction-polygoning.c9users.io/api/imagesearch/coolio?offset=3\n\n');
   res.write('When you make a search your history will be added here: \n\n');
   res.end(JSON.stringify(searchHistory));
 });
